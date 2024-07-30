@@ -10,15 +10,17 @@
 .logoAlura {
     margin-left: 10px;
     padding-top: 10px;
-    width: 50%;    
+    width: 2%;
+     
 }
 
-main{
+
+main {
     display: flex;
     margin-bottom: 50px;
     margin-left: 80px;
-
 }
+
 
 .text-area {
     border: none;
@@ -36,5 +38,16 @@ main{
 .message {
     background: white;
     background-image: url(./assets/person.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #6482AD;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
 }    
+.message:focus{
+    outline: none;
+}
         
