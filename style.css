@@ -45,9 +45,52 @@ main {
     margin-left: 98px;
     margin-top: 20px;
     padding-left: 20px;
-    position: fixed;
+    position: absolute;
 }    
 .message:focus{
     outline: none;
 }
-        
+
+.botton {
+    display: flex;
+    margin-top: 18px;
+
+}
+   
+.btn-desencriptar {
+    background-color: #6482AD;
+    border: 1px solid #7FA1C3;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar{
+    background-color: #6482AD;
+    border: 1px solid #7FA1C3;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn-copy {
+    border: 1px solid #7FA1C3;
+    border-radius: 24px;
+    color:#6482AD;
+    cursor: pointer;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    height: 67px;
+    width: 328px;
+}
+
+.info {
+    color: #7FA1C3;
+    font-size: 18px;
+}
