@@ -1,0 +1,41 @@
+* {
+    background-color: #F5EDED;
+    font-family:"Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150% ;
+
+}
+
+.logoAlura {
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 2%;
+
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+
+}
+
+.text-area {
+    border: none;
+    color: #6482AD;
+    margin-top: 90px;
+    text-transform: lowercase;
+
+}
+
+::placeholder {color: #6482AD;}
+    .text-area:focus {
+        outline: none;
+    }
+
+.message {
+    background: white;
+    background-image: url(./assets/person.png);
+}    
+        
