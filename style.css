@@ -3,9 +3,13 @@
     font-family:"Quicksand", sans-serif;
     font-weight: 400;
     font-size: 32px;
-    line-height: 150% ;
+    margin: 0;
+    padding: 0;
+    
 
 }
+
+
 
 .logoAlura {
     margin-left: 10px;
@@ -17,8 +21,9 @@
 
 main {
     display: flex;
-    margin-bottom: 50px;
-    margin-left: 80px;
+    padding: 4% 15%;
+ 
+
 }
 
 
@@ -26,6 +31,7 @@ main {
     border: none;
     color: #6482AD;
     margin-top: 90px;
+    padding-bottom: 57%;
     text-transform: lowercase;
 
 }
@@ -38,14 +44,16 @@ main {
 .message {
     background: white;
     background-image: url(./assets/person.png);
-    background-position: 2px;
+    background-position: 10px;
     background-repeat: no-repeat;
     border: none;
-    border-radius: 24px;
+    border-radius: 32px;
     color: #6482AD;
-    margin-left: 98px;
-    margin-top: 20px;
-    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 0% 0% 0% 20%;
+    height: 80%;
+    padding-bottom: 32px;
     position: absolute;
     
 }    
@@ -55,7 +63,7 @@ main {
 
 .botton {
     display: flex;
-    margin-top: 18px;
+    margin-top: 2%;
     
 
 }
@@ -86,22 +94,40 @@ main {
     border-radius: 24px;
     color:#6482AD;
     cursor: pointer;
-    margin-left: 108px;
-    margin-top: 402px;
+    margin:  0% 0% 0% 22%;
+    margin-top: 36%;
     position: absolute;
     height: 67px;
-    width: 336px;
+    width: 260px;
     
 }
+
 
 .info h6 {
-    color: #7FA1C3;
-    font-size: 18px;
     
-
-
-
-
+    color: #7FA1C3;
+    font-size: 19px;
 
 
 }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+
+}
+
+footer ul {
+    display: flex;
+    gap: 9px;
+    list-style: none;
+    font-size: 1.0rem;
+    font-weight: 400; 
+    color:#6482AD;
+}
+
+
+
